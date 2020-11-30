@@ -84,7 +84,9 @@ repos:
     hooks:
       - id: mypy
         exclude: ^docs
-        
+        args: [glotaran]
+        pass_filenames: false
+
   # - repo: https://github.com/PyCQA/pydocstyle
   #   rev: 5.1.1
   #   hooks:
